@@ -1,0 +1,42 @@
+.bodyArea {
+  column-count: 1; }
+
+.displayResponse {
+  width: auto;
+  height: 1em;
+  background-color: lightblue;
+  border-radius: 3px; }
+
+.showAllOrders {
+  width: 100%;
+  height: auto;
+  background-color: lightgreen;
+  border-radius: 3px; }
+
+.inputArea {
+  margin-top: 10px;
+  display: flex;
+  background-color: silver; }
+
+li {
+  list-style: none; }
+
+.menuArea {
+  margin-top: 10px;
+  display: flex;
+  background-color: orange; }
+
+.deleteArea {
+  margin-top: 10px;
+  display: flex;
+  background-color: orange; }
+
+.singleOrderArea {
+  margin-top: 10px;
+  background-color: silver; }
+
+body {
+  margin-left: 150px;
+  margin-right: 150px; }
+
+/*# sourceMappingURL=coffeeOrderApp.css.map */

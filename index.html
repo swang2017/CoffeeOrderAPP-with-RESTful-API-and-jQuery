@@ -1,0 +1,39 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="coffeeOrderApp.css"/>
+</head>
+
+<body>
+  <div class = "bodyArea">
+    <div class="menuArea">
+      <button id="btnShowAllOrders">Show all orders</button>
+      <button id="btncollapseOrderList">Collapse Order List</button>
+    </div>
+    <div class="inputArea">
+      Enter email
+      <input type="text" id="emailBox" />
+      Enter coffee type
+      <input type="text" id="descriptionTextBox" />
+      <button id="btnOrder">Order</button>
+      <div id="displayResponse" class="displayResponse">
+      </div>
+    </div>
+    <div class="deleteArea">
+      Enter email to delete order
+      <input type="text" id="deleteByEmailBox" />
+      <button id="btnDelete">Delete Order</button>
+    </div>
+    <div class="singleOrderArea">
+      Enter email to get order
+      <input type="text" id="orderByEmail" />
+      <button id="btnOrderByEmail">Get Order by Email</button>
+    </div>
+</div>
+<div id="showAllOrders" class="showAllOrders">
+</div>
+</body>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="app.js"></script>
+
+
+</html>
